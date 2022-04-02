@@ -1,0 +1,122 @@
+h1{ color:rgba(0, 0, 0, 0.548);
+
+}
+
+body  { 
+    background-color: rgb(46, 5, 5) ;
+    background: linear-gradient(bottom, rgb(254, 1, 1),rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgb(254, 1, 1),rgb(0, 0, 0));
+  background: -moz-linear-gradient(bottom, rgba(254,1,1,1),rgba(0,0,0,.4));
+    }
+  
+
+p{
+    color:white;
+}
+h5{
+    color:white;
+}
+
+
+h3{
+color:white;
+
+}
+
+
+.headcoffee{
+background-size:cover;
+
+
+}
+
+ h2{
+    color:white;
+}
+
+h1
+    {
+        color:white;
+    }
+
+
+
+
+h4{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.div3{
+    color:white;
+    background-color: rgb(46, 5, 5) ;
+    background: linear-gradient(bottom, rgb(52, 1, 254,1),rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgb(52, 1, 254,1),rgb(0, 0, 0));
+  background: -moz-linear-gradient(bottom, rgba(52,1,254,1),rgba(0,0,0,.4));
+}
+.divme
+{
+color: white;
+font-family: sans-serif;
+
+}
+
+
+
+  .biking
+  {
+height: 400px;
+width: 500px;
+}
+header
+{
+
+    background:url("coffee_on_table_sideways.jpg");
+    background-size: cover;
+}
+.headcoffee{
+height:400px;
+width: 600px;
+}
+
+
+.im_yusra
+{
+    text-align: center;
+}
+
+.longh4
+{
+   color:bisque;
+   background-color:rgba(231, 54, 163, 0.532);
+}
+    .butter_cat_fly
+    { height: 400px;
+        width:300px;
+
+    }
+
+
+.befunny{
+    background-color: black;
+}
+
+
+html{
+    Font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

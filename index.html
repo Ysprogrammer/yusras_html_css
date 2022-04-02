@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<head>
+<title>Yusras 1# website </title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+ <header>
+<img class="headcoffee" src="coffee_on_table_sideways.jpg" alt="" height:400px; width: 500px; no-repeat>
+ </header>
+ <header class="w3-display-container w3-wide" id="home">
+  <img class="coffheader" src="coffee_on_table_sideways.jpg" alt="Fashion" width="100" height="100">
+  <div class="w3-display-left w3-padding-large">
+    <h1 class="w3-text-white">Yusras</h1>
+    <h1 class="portfolio"><b>Portfolio</b></h1>
+    <h6><button class="sub" onclick="sub">SUBSCRIBE</button></h6>
+  </div>
+</header>
+
+
+
+<div class="">
+      <a href="https://yusraschoolproject.wixsite.com/crispycookingwithme" class="w3-button w3-block">Here is a old cooking website I made using Wix.com.</a>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+<!-- Content -->
+
+
+  <div class="im_yusra">
+    <h1><b>Hidden Genius!</b></h1>
+    <p>Hi! I'm Yusra and welcome to my Website!!</p>
+  <img class="butter_cat_fly" src="cat_butterfly_nose.jpg"width: 500px
+  height: 300px>
+  <h3><b>:D</b></h3>
+  </div>
+
+  <!-- Slideshow -->
+ <H3>Coding shows your creativity🌙👍</H3>
+    <div class="Befunny">
+      <img src="https://images.unsplash.com/photo-1469598614039-ccfeb0a21111?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnVubnl8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" 
+      width: 300px
+      height: 300px
+      >
+     
+      <div class="w3-display-topleft w3-container w3-padding-32">
+    <p>Dont forget to have fun while coding :)</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="/w3images/workbench.jpg" style="width:100%">
+
+      <div class="w3-display-middle w3-container w3-padding-32">
+    
+    
+
+   
+  
+   
+
+    <div class="div2">
+      <h3>I love Biking</h3>
+      <p>iTS SO MUCH FUN!!.</p>
+      <img class="biking" src="https://images.unsplash.com/photo-1519583272095-6433daf26b6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+    </div>
+<h4 class="longh4">I'm Yusra as I've told you before :) (just incase you forget) I am 12years old. I go to online school and Coding is so much fun! I make whatever my minds tells me to. All I need is my IMAGANATION! But you dont always have to think of your own Ideas. If you like something from another website, you can just click F12 on your computer. It will then show you all the code the websites made up of! And you can take what you like from ALOT of websites and put them together! :D I cant wait to see what I can do with coding!</h4>
+    <div class="div3">
+      
+      <h3>Heres a Small list of things about me</h3>
+      <p>One last thing. I hope you like my website:) hehe</p>
+     <div class="divme">
+      <ul>
+<li>I am 12</li>
+<li>I live in Washington</li>
+<li>I have been to canada.</li>
+<li>Brownies, Chocolate, Halwa, Gulab Jamun, Puff puff, Cinnamon Rolls, I LOVE DESSERTS!</li>
+      </ul>
+    </div>
+    
+
+
+
+
+  <p>If you liked my website. Type down there:)</p>
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Name</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Subject</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="submitbutton">Send</button>
+  </form>
+
+</div>
+
+ 
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<title>Yusras first website!</title>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale.0">
+       
+    <title>Document</title>
+</head>
+<body> 
+    <img src="cheesecake.jpg" alt="">
+    <img src="" alt="">
+ <h1>Hi everyone! Im Yusra! </h1> 
+ <h2>welcome to my FIRST website! :D</h2>  
+ <p class="p1">I am learning how to code</p>
+ <ul>
+<li>Age: 12 </li>  
+<li>Name: Yusra</li>
+<li>Hobbies: Biking, Cooking, traveling, and swimming. </li>
+<li></li>
+</ul>
+
+<p class="p2"> Today I will show you some beautiful Cakes that some people have made :)</p>
+<link rel="stylesheet" href="style.css">
+<p>1.  </p>
+
+ <h2></h2>
+ 
+</body>
+</html>
+-->
